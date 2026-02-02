@@ -36,10 +36,6 @@ jobs:
         include:
         - vscode_arch: x64
           npm_arch: x64
-        - vscode_arch: arm64
-          npm_arch: arm64
-        - vscode_arch: armhf
-          npm_arch: arm
 
     name: Build linux-${{ matrix.vscode_arch }}
     outputs:
